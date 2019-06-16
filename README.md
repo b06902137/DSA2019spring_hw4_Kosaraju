@@ -1,5 +1,6 @@
 # DSA2019spring_hw4_Kosaraju
-Kosaraju's algorithm: find Strongly Connected Components on a directed graph
+- find Strongly Connected Components on a directed graph
+- language: C
 
 ## input
 - **first line** contains two integers **V, E** indicating *number of vertices* and *number of edges*, respectively.
