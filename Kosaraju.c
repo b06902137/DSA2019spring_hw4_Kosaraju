@@ -91,7 +91,7 @@ void DFS_reverse(Graph* G, int start, int* visited, int* SCC, int SCC_index){
 
 /*	Kosaraju's algorithm 
  *		input:	a Graph G
- *		output: an array SCC denoting the mapping of original vertex in G 
+ *		output: an array SCC indicating the mapping of original vertex in G 
  *				to its corresponding Strongly Connected Component.
  */
 int Kosaraju(int* SCC, Graph* G){{{
@@ -136,7 +136,7 @@ int main(){
 	
 	int u, v;
 	for(int i = 0; i < E; ++i){
-		/*	each pair of <u, v> represents
+		/*	each pair of <u, v> means
 		 *	there is a directed edge
 		 *	from u to v
 		 */
